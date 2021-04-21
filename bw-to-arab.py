@@ -29,7 +29,6 @@ trans = [
 
 lines = list(io.open('quranic-corpus-morphology-0.4.txt'))
 out = io.open('quranic-corpus-morphology-ar.txt', 'w', encoding='utf-8')
-out.write(''.join(lines[:57]))  # Add copyright blocks
 
 for line in lines[57:]:
     parts = line.split('\t')
