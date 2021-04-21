@@ -389,7 +389,7 @@ fixes = [
     (0, 'P\tP|LEM:مَع', 'N\tLOC|LEM:مَع|ACC'),
 ]
 
-f = 'quranic-corpus-morphology-0.4-ar.txt'
+f = 'quranic-corpus-morphology-ar.txt'
 text = open(f).read()
 for fix in fixes:
     print('Replacing ', fix[1])
